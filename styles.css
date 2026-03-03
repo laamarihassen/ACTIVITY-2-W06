@@ -1,0 +1,156 @@
+/* ========== GLOBAL STYLES ========== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Main container wrapper */
+.wrapper {
+  border: 2px solid #000;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Generic block style */
+.block {
+  border: 2px solid #000;
+  margin: 10px;
+  padding: 16px;
+  min-height: 80px;
+}
+
+/* Top bar: logo and navigation */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
+}
+
+/* Logo style */
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Navigation links */
+.nav a {
+  text-decoration: none;
+  border: 2px solid #000;
+  padding: 8px 12px;
+  margin-left: 8px;
+  color: #000;
+}
+
+/* ========== LAYOUT 2 STYLES ========== */
+
+/* Header/Banner section */
+.l2-header {
+  min-height: 120px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Intro text area */
+.l2-intro {
+  min-height: 80px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Container for the 3 boxes */
+.l2-boxes {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+
+/* Individual box style */
+.l2-box {
+  border: 2px solid #000;
+  padding: 16px;
+  min-height: 240px;
+  flex: 1; /* Makes all boxes equal width */
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* Footer section */
+.l2-footer {
+  min-height: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+/* ========== LAYOUT 3 STYLES ========== */
+
+/* Main layout container (sidebar + right content) */
+.l3-main {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+
+/* Sidebar navigation */
+.l3-sidebar {
+  border: 2px solid #000;
+  padding: 16px;
+  min-height: 420px;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+}
+
+/* Right side container */
+.l3-right {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Header/Banner on the right side */
+.l3-banner {
+  border: 2px solid #000;
+  padding: 16px;
+  min-height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+/* Body content area */
+.l3-body {
+  border: 2px solid #000;
+  padding: 16px;
+  min-height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+/* Footer section */
+.l3-footer {
+  min-height: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+}
